@@ -4,13 +4,6 @@
   "description": "Venus Template",
   "author": "Pasquale Vitiello <pasqualevitiello@gmail.com>",
   "license": "GPLv3",
-  "repository": {
-    "type": "git",
-    "url": "https://bitbucket.org/pasqualevitiello/venus.git"
-  },
-  "bugs": {
-    "url": "https://bitbucket.org/pasqualevitiello/venus/issues"
-  },
   "scripts": {
     "clean": "rimraf dist/{css/*,js/*,images/*}",
     "autoprefixer": "postcss -u autoprefixer -r dist/css/*",
